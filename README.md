@@ -1,9 +1,11 @@
-Overview
+Overview: 
+
 The starter code for this assignment consists of two divs on the index.html page. Each div will be appended with an SVG for a different plot. The first plot is a bar chart that displays total sales across different product categories, using the "Category" and "Sales" columns from the dataset. The second plot is a line chart that visualizes monthly sales trends for a selected category, using the "Order Date" and "Sales" columns. These two charts are dynamically linked, allowing users to interact with the bar chart to update the line chart. Clicking on a bar in the bar chart will filter the line chart to display only the monthly sales trend for the selected category.
 
 The assignment also includes adding interactive feedback, such as changing the color of the selected bar and displaying tooltips for enhanced readability.
 
-Data Description
+Data Description:
+
 The data used for this visualization was processed from the train.csv file. The preprocessing script, data_preprocessing.py, aggregates and formats the data into two separate CSV files for the required visualizations:
 
 bar_chart_data.csv:
