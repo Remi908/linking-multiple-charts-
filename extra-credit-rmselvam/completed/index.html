@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Dashboard</title>
+  </head>
+  <body>
+    <div id="dashboard">
+      <h1 style="text-align: center">Sales Dashboard</h1>
+      <p style="text-align: center; font-weight: bold;">
+        This dashboard provides insights into total sales by product category
+        and monthly sales trends for the selected category. Click on a bar to
+        update the line chart below.
+      </p>
+      <p style="text-align: center; font: size 10px;">
+        This visualization shows total sales across different product
+        categories, such as Furniture, Technology, and Office Supplies, using a
+        bar chart. It also includes a line chart that displays the monthly sales
+        trends for a selected category, using the "Sales" column over time. The
+        "Category" column is used to group the total sales in the bar chart, and
+        the "Order Date" column is used to calculate monthly trends for the line
+        chart. When you click on a bar in the bar chart, the line chart updates
+        to show how the sales for that category have changed over the months.
+        This helps you understand both the overall and time-based performance of
+        each category.
+      </p>
+      <div id="bar-chart" style="text-align: center"></div>
+      <div id="line-chart" style="text-align: center"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+    <script src="style.css"></script>
+  </body>
+</html>
